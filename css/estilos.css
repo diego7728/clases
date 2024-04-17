@@ -9,9 +9,9 @@
 }
 
 :root {
-    --color_text-primary: gray;
+    --color_text-primary: #99B898;
     --color_text-secundary: black;
-    --color_text-tertiary: rgb(77, 74, 74);
+    --color_text-tertiary: #a3c4a2;
     --main_color-primary: gray;
     --main_color-secundary: rgb(77, 74, 74);
     --background-color: white;
@@ -48,6 +48,12 @@ header {
     align-items: center;
     position: relative;
     z-index: 1;
+    border-radius: 50px;
+}
+
+.logo:hover {
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
 }
 
 .logo img {
@@ -293,10 +299,16 @@ header {
 .image_content div{
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .image_content img {
-    width: 300px;
-    border-radius: 10px;
+    width: 230px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.image_content img:hover {
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
 }
