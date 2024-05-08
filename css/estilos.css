@@ -12,7 +12,7 @@
     --color_text-primary: #99B898;
     --color_text-secundary: black;
     --color_text-tertiary: #a3c4a2;
-    --main_color-primary: gray;
+    --main_color-primary: rgb(165, 164, 164);
     --main_color-secundary: rgb(77, 74, 74);
     --background-color: white;
     --color_new-item: rgb(226, 216, 216);
@@ -327,7 +327,7 @@ header {
 }
 
 .text_card-primera p{
-    color: var(--color_text-primary);
+    color: var(--color_new-item);
     letter-spacing: 4px;
     font-size: var(--text_paragraph);
     font-weight: 500;
@@ -451,7 +451,7 @@ header {
 }
 
 .text_card-image p{
-    color: var(--color_text-primary);
+    color: var(--color_text-secundary);
     letter-spacing: 4px;
     font-size: var(--text_paragraph);
     font-weight: 500;
