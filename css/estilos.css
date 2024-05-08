@@ -547,12 +547,18 @@ header {
 
 .container_box-cardWorker{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     margin-top: 40px;
     margin-bottom: 80px;
-    height: 100%;
     transition: height 1s ease 0s;
+}
+
+.box_card-worker1 img {
+    width: 120px;
+    height: 140px;
+    border-radius: 20px;
+    margin: 14px;
 }
 
 .box_card-worker1{
@@ -560,18 +566,7 @@ header {
     padding: 60px 40px;
     border-radius: 20px;
     margin: 14px;
-    background-image: url(https://media.istockphoto.com/id/1455559262/es/foto/motociclismo-en-los-alpes-austr%C3%ADacos.jpg?s=612x612&w=0&k=20&c=8ICbLmEY6xHU1F2FfmGuJzt5Hak7Z-fzDyOsriGq3PQ=) ;
-    background-size: cover;
     transition: transform 0.5s ease;
-}
-
-.box_card-worker1 p {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.box_card-worker1:hover  p {
-    opacity: 1;
 }
 
 .box_card-worker1:hover{
@@ -585,26 +580,14 @@ header {
     padding: 60px 40px;
     border-radius: 20px;
     margin: 14px;
-    background-image: url(https://media.istockphoto.com/id/1455559262/es/foto/motociclismo-en-los-alpes-austr%C3%ADacos.jpg?s=612x612&w=0&k=20&c=8ICbLmEY6xHU1F2FfmGuJzt5Hak7Z-fzDyOsriGq3PQ=) ;
-    background-size: cover;
     transition: transform 0.5s ease;
 }
 
-.box_card-worker2 p {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.box_card-worker2:hover p {
-    opacity: 1;
-}
-.box_card-worker2 h2 {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.box_card-worker2:hover h2 {
-    opacity: 1;
+.box_card-worker2 img {
+    width: 120px;
+    height: 140px;
+    border-radius: 20px;
+    margin: 14px;
 }
 
 .box_card-worker2:hover{
@@ -613,26 +596,45 @@ header {
     box-shadow: var(--box_shadow-primary);
 }
 
+.box_card-worker3 img {
+    width: 120px;
+    height: 140px;
+    border-radius: 20px;
+    margin: 14px;
+}
+
+
 .box_card-worker3{
     max-width: 350px;
     padding: 60px 40px;
     border-radius: 20px;
     margin: 14px;
-    background-image: url(https://media.istockphoto.com/id/1455559262/es/foto/motociclismo-en-los-alpes-austr%C3%ADacos.jpg?s=612x612&w=0&k=20&c=8ICbLmEY6xHU1F2FfmGuJzt5Hak7Z-fzDyOsriGq3PQ=) ;
-    background-size: cover;
     transition: transform 0.5s ease;
 }
 
-.box_card-worker3 p {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-
-.box_card-worker3:hover  p {
-    opacity: 1;
-}
-
 .box_card-worker3:hover{
+    background-image: none;
+    transform: scale(1.1);
+    box-shadow: var(--box_shadow-primary);
+}
+
+.box_card-worker4 img {
+    width: 120px;
+    height: 140px;
+    border-radius: 20px;
+    margin: 14px;
+}
+
+
+.box_card-worker4{
+    max-width: 350px;
+    padding: 60px 40px;
+    border-radius: 20px;
+    margin: 14px;
+    transition: transform 0.5s ease;
+}
+
+.box_card-worker4:hover{
     background-image: none;
     transform: scale(1.1);
     box-shadow: var(--box_shadow-primary);
