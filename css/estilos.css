@@ -364,11 +364,6 @@ header {
     width: 180px;
 }
 
-.image_card img {
-    width: 120px;
-}
-
-
 .box_card-primera h2{
     font-size: var(--text_title_card);
     margin-top: 40px;
@@ -639,11 +634,68 @@ header {
     transform: scale(1.1);
     box-shadow: var(--box_shadow-primary);
 }
+/* end trabajadores */
+/* container formulario y mapa */
+.containt_map_form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--color_text-tertiary);
+}
+
+.map_form {
+   
+    margin: auto;
+    display: flex;
+    padding: 0px;
+}
 
 
-
-
-
+/* formulario */
+.form {
+    background-color: none;
+    padding: 50px;
+    width: 100%;
+    max-width: 700px;
+}
+h1 {
+    margin-bottom: 20px;
+}
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+    outline: none;
+    background-color: var(--color_text-tertiary);
+}
+input:focus, textarea:focus {
+    border-bottom: 2px solid #5cb85c;
+}
+.half-width {
+    width: 48%;
+}
+textarea {
+    resize: vertical;
+}
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4cae4c;
+}
+/* end formulario */
 
 
 
