@@ -488,7 +488,7 @@ header {
     padding: 60px 40px;
     border-radius: 20px;
     margin: 14px;
-    background-image: url(https://media.istockphoto.com/id/1455559262/es/foto/motociclismo-en-los-alpes-austr%C3%ADacos.jpg?s=612x612&w=0&k=20&c=8ICbLmEY6xHU1F2FfmGuJzt5Hak7Z-fzDyOsriGq3PQ=) ;
+    background-image: url(https://www.cronista.com/files/image/458/458150/626283ce8f470_700_462!.jpg?s=7f1faafc91236e7ca3aeaf78cf899a94&d=1666111080) ;
     background-size: cover;
     transition: transform 0.5s ease;
 }
@@ -503,7 +503,7 @@ header {
     padding: 60px 40px;
     border-radius: 20px;
     margin: 14px;
-    background-image: url(https://media.istockphoto.com/id/1455559262/es/foto/motociclismo-en-los-alpes-austr%C3%ADacos.jpg?s=612x612&w=0&k=20&c=8ICbLmEY6xHU1F2FfmGuJzt5Hak7Z-fzDyOsriGq3PQ=) ;
+    background-image: url(https://www.theadvocates.com/wp-content/uploads/2022/09/Motorcycle-Accident-1.png) ;
     background-size: cover;
     transition: transform 0.5s ease;
 }
@@ -639,7 +639,7 @@ header {
 .containt_map_form {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: var(--color_text-tertiary);
+    background-color: var(--color_new-item);
 }
 
 .map_form {
@@ -673,10 +673,10 @@ input, textarea {
     border-bottom: 2px solid white;
     box-sizing: border-box;
     outline: none;
-    background-color: var(--color_text-tertiary);
+    background-color: var(--color_new-item);
 }
 input:focus, textarea:focus {
-    border-bottom: 2px solid #5cb85c;
+    border-bottom: 2px solid black;
 }
 .half-width {
     width: 48%;
@@ -685,7 +685,7 @@ textarea {
     resize: vertical;
 }
 button {
-    background-color: #5cb85c;
+    background-color: black;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -693,10 +693,47 @@ button {
     cursor: pointer;
 }
 button:hover {
-    background-color: #4cae4c;
+    background-color:gray;
 }
 /* end formulario */
+/* inicio pie de pagina */
+.pie_pagina{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
+.contenido{
+    padding-left: 50px;
+}
+.contenido img{
+    height:300px ;
+    width: 300px;
+}
 
+.contenido-dos{
+    display: grid;
+}
 
+.contenido-dos h2{
+    margin-bottom: 20px;
+}
+.contenido-dos a{
+    color: black;
+}
 
+.info h2{
+    margin-bottom: 40px;
+}
+.contact{
+    margin-bottom: 10px;
+}
+
+.pie{
+    color: gray;
+}
+
+.pie p{
+    margin: 15px;
+    text-align: center;
+}
